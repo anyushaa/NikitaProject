@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WordBooks</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #000000;
+    }                                                                                                                                                                              
+    header {
+      background-color: #692d05;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #692d05;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WordBooks</h1>
+  </header>
+  <nav>
+    <a href="indexx.html">Главная</a>
+    <a href="обзорыкниг.html">Обзоры книг
+    <a href="рекомендации.html">Рекомендации</a>
+  </nav>
+  <section>
+    <h2>Обмен</h2>
+    <p>Тут вы можете обменяться книгами с другими пользователями нашего сайта!</p>
+    <div class="modal">
+      <h2>Наш чат для обмена книгами</h2>
+      <button onclick="redirectToChat()">Перейти</button>
+    </div>
+  
+    <script>
+        function redirectToChat() {
+            // добавьте URL, на который нужно перейти
+            window.location.href = 'https://example.com/chat';
+        }
+    </script>
+  </section>
+
+</body>
+</html>
